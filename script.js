@@ -8,8 +8,7 @@
     }
 
     // Apply the stored preference when the page loads
-    applyDarkModePreference();
-https://www.svgrepo.com/show/345223/three-dots-vertical.svg
+    applyDarkModePreference()
     // Event listener for the dark mode toggle button
     document.getElementById('darkModeToggle').addEventListener('click', function() {
       const darkMode = localStorage.getItem('darkMode');
