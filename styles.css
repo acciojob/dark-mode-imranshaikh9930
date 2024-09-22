@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #000;
+      margin: 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Dark Mode Styles */
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    /* Button Style */
+    .toggle-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    /* Dark Mode Button */
+    body.dark-mode .toggle-btn {
+      background-color: #444;
+    }
+
+    /* Button Hover Effect */
+    .toggle-btn:hover {
+      background-color: #0056b3;
+    }
+
+    body.dark-mode .toggle-btn:hover {
+      background-color: #333;
+    }
